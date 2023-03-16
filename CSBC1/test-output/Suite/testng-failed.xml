@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="7" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="7" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Com.Test.ContactUsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Contact_Us"/>
+          <include name="navigate2"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.ContactUsTest -->
+      <class name="Com.Test.HomeTest">
+        <methods>
+          <include name="home"/>
+          <include name="closeBrowser"/>
+          <include name="navigate2"/>
+          <include name="titleTest"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.HomeTest -->
+      <class name="Com.Test.EventTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Event"/>
+          <include name="navigate2"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.EventTest -->
+      <class name="Com.Test.DonateTest">
+        <methods>
+          <include name="ClickDonate20kAmount"/>
+          <include name="closeBrowser"/>
+          <include name="ClickDonate2kAmount"/>
+          <include name="navigate2"/>
+          <include name="ClickDonate10kAmount"/>
+          <include name="ss"/>
+          <include name="launchTheBrowser"/>
+          <include name="ClickDonateRandomAmount"/>
+          <include name="hitTheURL"/>
+          <include name="currentURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="ClickDonate5kAmount"/>
+        </methods>
+      </class> <!-- Com.Test.DonateTest -->
+      <class name="Com.Test.LoginTest">
+        <methods>
+          <include name="VerifyLogInPage"/>
+          <include name="currentURL"/>
+          <include name="closeBrowser"/>
+          <include name="titleTest"/>
+          <include name="hitTheURL"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.LoginTest -->
+      <class name="Com.Test.GalaryTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="GALLERY_OpenEventGallary"/>
+          <include name="navigate2"/>
+          <include name="ss"/>
+          <include name="GALLERY_OpenVIPGallary"/>
+          <include name="titleTest"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="GALLERY_OpenVideoGallary"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.GalaryTest -->
+      <class name="Com.Test.About_UsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testFounderImageDisplay"/>
+          <include name="navigate2"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.About_UsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="7" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="firofox"/>
+    <classes>
+      <class name="Com.Test.ContactUsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Contact_Us"/>
+          <include name="navigate2"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.ContactUsTest -->
+      <class name="Com.Test.HomeTest">
+        <methods>
+          <include name="home"/>
+          <include name="closeBrowser"/>
+          <include name="navigate2"/>
+          <include name="titleTest"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.HomeTest -->
+      <class name="Com.Test.EventTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Event"/>
+          <include name="navigate2"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.EventTest -->
+      <class name="Com.Test.DonateTest">
+        <methods>
+          <include name="ClickDonate20kAmount"/>
+          <include name="closeBrowser"/>
+          <include name="ClickDonate2kAmount"/>
+          <include name="navigate2"/>
+          <include name="ClickDonate10kAmount"/>
+          <include name="ss"/>
+          <include name="launchTheBrowser"/>
+          <include name="ClickDonateRandomAmount"/>
+          <include name="hitTheURL"/>
+          <include name="currentURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="ClickDonate5kAmount"/>
+        </methods>
+      </class> <!-- Com.Test.DonateTest -->
+      <class name="Com.Test.LoginTest">
+        <methods>
+          <include name="VerifyLogInPage"/>
+          <include name="currentURL"/>
+          <include name="closeBrowser"/>
+          <include name="titleTest"/>
+          <include name="hitTheURL"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.LoginTest -->
+      <class name="Com.Test.GalaryTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="GALLERY_OpenEventGallary"/>
+          <include name="navigate2"/>
+          <include name="ss"/>
+          <include name="GALLERY_OpenVIPGallary"/>
+          <include name="titleTest"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="GALLERY_OpenVideoGallary"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.GalaryTest -->
+      <class name="Com.Test.About_UsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testFounderImageDisplay"/>
+          <include name="navigate2"/>
+          <include name="hitTheURL"/>
+          <include name="navigate1"/>
+          <include name="navigate"/>
+          <include name="navigate3"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- Com.Test.About_UsTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
